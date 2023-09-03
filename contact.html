@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+
+    <style>
+        .navbar{
+            display: flex;
+            flex-direction: row-reverse;
+            right: 20px;
+            background-color: rgb(0, 0, 51);
+            color: aqua;
+            height: 40px;
+            width: auto;
+            font-size: 22px;
+            border-radius: 5px;
+            align-items: center ;
+            
+            
+        }
+        #nav{
+            margin-right: 70px;
+            text-decoration: none;
+            color: aqua;
+            font-family: sans-serif;
+        }
+
+        .form{
+            margin-top: 50px;
+            border: 2px solid black;
+        }
+
+        .fn{
+            font-size: 22px;
+            margin-left: 250px;
+        }
+
+        .ln{
+            font-size: 22px;
+            margin-left: 100px;
+        }
+        #email{
+            margin-left: 50px;
+            size: 20px;
+        }
+        #phone{
+            margin-left: 38px;
+        }
+        #query{
+            margin-left: 50px;
+        }
+        button{
+            margin-left: 250px;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="https://wa.me/919529959570" target="_blank" id="nav">Whatsapp</a>
+        <a href="mailto:vjz200308@gmail.com" target="_blank" id="nav">Email</a>
+        <a href="index.html" target="_blank" id="nav">Home</a>
+        
+    
+
+    </div>
+    <form class="form">
+        
+           
+        <label for="fname" class="fn" >First Name :</label>
+        <input type="text" id="fname" required placeholder="Enter First Name">
+
+     
+        <label for="lname" class="ln">Last name :</label>
+        <input type="text" id="lname" placeholder="Enter Last Name">
+
+        <br><br>
+
+        <label for="email" class="fn">Email :</label>
+        <input type="email" id="email" placeholder="Enter your Email">
+
+        <label for="phone" class="ln" id="ph">Phone :</label>
+        <input type="number" name="" id="phone" placeholder="Enter your Number">
+
+        <br><br>
+
+        <label for="query" class="fn">Query :</label>
+        <textarea name="" id="query" cols="20" rows="4" placeholder="Post your Query"></textarea>
+
+        <br><br>
+
+        
+        
+        <button >Submit</button>
+    </form>
+    
+</body>
+</html>
